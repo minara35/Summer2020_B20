@@ -17,5 +17,37 @@ public class DogParkArray {
         }
 
 
+        System.out.println("===========================================================================");
+        for(Dog eachDog : dogPark){
+            eachDog.getDogInfo();
+
+        }
+        System.out.println("=============================================================================");
+
+
+        String food = "treats";
+
+        for(Dog each : dogPark){
+            each.eat(food);
+
+        }
+
+
+        System.out.println("===============================================================================");
+        String drink ="milk";
+        for(Dog each : dogPark){
+            each.drink(drink);
+        }
+
+
+        System.out.println("================================================================================");
+
+        // sleep
+
+        for(Dog each : dogPark) {
+            each.sleep();
+        }
+
+
     }
 }
