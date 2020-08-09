@@ -37,4 +37,9 @@ String name;
         System.out.println(name + " is drinking " + drink);
     }
 
+    public void sleep(){
+        System.out.println(name + " is sleeping");
+
+    }
+
 }

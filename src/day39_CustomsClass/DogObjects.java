@@ -26,6 +26,8 @@ public class DogObjects {
         dog2.drink("cola");
         dog3.drink("milk");
 
+        dog1.sleep();
+
 
     }
 
