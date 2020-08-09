@@ -36,4 +36,8 @@ car2: BMW
 
 
 
+         public void print(){
+        System.out.println(brand + " " + model + " is started");
+    }
+
 }
