@@ -21,7 +21,7 @@ public class Car {
                 color = carColor;
                 mileage = carMileage;
                 price = carPrice;
-
+            // sets the info of the car objects
 
 /*
 car1: Toyota
@@ -31,11 +31,11 @@ car2: BMW
         }
         public void getInfo(){
             System.out.println(year + " " + brand + " " + model + ", " + color+ ", " + mileage+ ", $" + price);
-
+            // 2012 Toyota Corolla, Red, 10000, $45000
         }
 
 
-
+    // prints the car info
          public void print(){
         System.out.println(brand + " " + model + " is started");
     }
