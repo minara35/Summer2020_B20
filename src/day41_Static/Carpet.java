@@ -47,5 +47,10 @@ public class Carpet {
         System.out.println("persian carpet: " + isPersian);
         System.out.println("total price:" + df.format(calcCost()));
         System.out.println("====================================");
+
+    }
+
+    public String toString(){
+      return "width: " + width + ", length: " + length + ", Persian: " + isPersian;
     }
 }
