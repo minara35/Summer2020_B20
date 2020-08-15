@@ -8,12 +8,12 @@ public class WrapperClass_Array {
         int[] arr = {1,2,3,4};
         Integer[] arr1 = {1,2,3,4};
         for(int each:arr1){
-            System.out.print(each + " "); // unboxing
+            System.out.print(each + " "); // unboxing 1 2 3 4
         }
         System.out.println();
         Double[] arr3 = {1.0, 2.0, 3.0, 4.0};
       for(Double each : arr3){
-          System.out.print(each + " "); // kicking
+          System.out.print(each + " "); // kicking 1.0 2.0 3.0 4.0
       }
 
         System.out.println();
@@ -25,7 +25,7 @@ public class WrapperClass_Array {
 
         char ch = 79;
         Character ch2 = 79;
-        System.out.println(ch2);
+        System.out.println(ch2); //O
 
         String[] nums1 = {"12.5", "13.5", "14.5", "15.5"};
 
