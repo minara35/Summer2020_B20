@@ -28,13 +28,24 @@ public class CarpetObjects {
         ArrayList<Carpet>persianCarpets = new ArrayList<>();
 
         ArrayList<Carpet>regularCarpets = new ArrayList<>();
-        for(int i= 0; i<=carpets.length-1; i++ ){
+
+    /*    for(int i= 0; i<=carpets.length-1; i++ ){
             if(carpets[i].isPersian){
                 persianCarpets.add(carpets[i]);
             }else {
                 regularCarpets.add(carpets[i]);
             }
 
+        }
+
+     */
+
+        for(Carpet each : carpets){
+            if(each.isPersian){
+                persianCarpets.add(each);
+            }else {
+                regularCarpets.add(each);
+            }
         }
         System.out.println("Number of persian carpet: " + persianCarpets.size());
         System.out.println("Number of regular carpet: " + regularCarpets.size());
