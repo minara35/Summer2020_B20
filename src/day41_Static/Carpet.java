@@ -1,4 +1,7 @@
 package day41_Static;
+
+import java.text.DecimalFormat;
+
 /*
 create a custom class for the Carpet class that should contain the following:
 
@@ -36,12 +39,13 @@ public class Carpet {
         return totalPrice;
     }
     public void getCarpetInfo(){
+        DecimalFormat df = new DecimalFormat("0.00");
         System.out.println("====================================");
         System.out.println("width: " + width);
         System.out.println("length: " + length);
         System.out.println("unit price: " + unitPrice);
         System.out.println("persian carpet: " + isPersian);
-        System.out.println("total price:" + calcCost());
+        System.out.println("total price:" + df.format(calcCost()));
         System.out.println("====================================");
     }
 }
