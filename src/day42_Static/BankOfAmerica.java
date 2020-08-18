@@ -27,5 +27,24 @@ public class BankOfAmerica {
         for(Developer each : team1.developers) {
             System.out.println(each.name + " : $" + each.salary);
         }
+
+        System.out.println("========================");
+
+        team1.removeTester(100024);
+
+        team1.removeDeveloper(3222L);
+        team1.removeDeveloper(76543);
+        System.out.println(team1);
+
+        System.out.println("========================");
+
+        Developer dev1 = new Developer();
+        dev1.setInfo("Hamit", 'M', 22345, "DEv Team", 130000);
+        team1.addDeveloper(dev1);
+        System.out.println(team1);
+
+        ScrumTeam[]  scrumTeams = {team1, new ScrumTeam(), new ScrumTeam()};
+
     }
+
 }
