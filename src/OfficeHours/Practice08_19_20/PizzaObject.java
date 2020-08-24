@@ -1,4 +1,4 @@
-package OfficeHours;
+package OfficeHours.Practice08_19_20;
 
 import OfficeHours.Practice08_19_20.Pizza;
 

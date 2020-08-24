@@ -13,8 +13,9 @@ public class StudentsObject {
         Student student3 = new Student("Murat", 22, 'M');
        // student3.setInfo("Belek", 30, 'M');
 
-
-
+        System.out.println(student1);
+        System.out.println(student2);
+        System.out.println(student3);
 
     }
 }
