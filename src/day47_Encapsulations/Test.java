@@ -11,6 +11,14 @@ public class Test {
 
        // System.out.println(AccessModifiers.privateVariable); // private not visible outside of package it vivsble only inside if class
         //AccessModifiers.privateMethod();
+
+       Encapsulation obj1 = new Encapsulation();
+        //System.out.println(obj1.ssn); - will not work
+        System.out.println(obj1.getSsn());
+
+        //
+        obj1.setSsn(4536676);
+        System.out.println(obj1.getSsn());
     }
 
 }
