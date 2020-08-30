@@ -74,6 +74,10 @@ public class BankAccount {
     }
 
     public void withdraw(double amount){
+        if(amount <=0 || amount > 1000){
+            System.out.println("Invalid amount");
+            return;
+        }
         if(amount > balance){
             System.out.println("Not enough balance");
             return; // we can use instand of return else statement
@@ -81,4 +85,18 @@ public class BankAccount {
         System.out.println("Withdraw: $" + amount);
         balance -=amount;
     }
+
+    public void availableBalance(){
+        System.out.println("Available Balance: "+getBalance()) ;
+    }
+
+public String toString(){
+    return bankName +
+            "\n==================================================="+
+            "\n"+firstName + " " + lastName +
+            "\nAccount Number: "+getAccountNum()+
+            "\n==================================================="+
+            "\nBalance: $"+getBalance();
+
+}
 }
