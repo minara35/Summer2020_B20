@@ -15,5 +15,15 @@ public class Animal {
         System.out.println(name + " is eating");
     }
 
+public void setInfo(String name, String size, int age, char gender){
+        this.name = name;
+        this.gender = gender;
+        this.size  = size;
+        this.age = age;
 
+}
+
+public String toString(){
+    return "Name: " + name + ", Age: " + age + ", Size: " + size + ", Gender: " + gender;
+    }
 }
