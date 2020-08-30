@@ -13,8 +13,8 @@ public class Dog extends Animal {
 
     }
 
-    public Dog(String name, String size, int age, char gender){
-       setInfo(name, size, age, gender);
+    public Dog(String name, String size, int age, char gender, double lb){
+       setInfo(name, size, age, gender, lb);
     }
 
 

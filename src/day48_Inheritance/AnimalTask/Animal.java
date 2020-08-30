@@ -7,6 +7,7 @@ public class Animal {
     public char gender;
     public String name;
     public String size;
+    public double lb;
     public void sleep(){
         System.out.println(name + " is sleeping");
     }
@@ -15,15 +16,16 @@ public class Animal {
         System.out.println(name + " is eating");
     }
 
-public void setInfo(String name, String size, int age, char gender){
+public void setInfo(String name, String size, int age, char gender, double lb){
         this.name = name;
         this.gender = gender;
         this.size  = size;
         this.age = age;
+        this.lb = lb;
 
 }
 
 public String toString(){
-    return "Name: " + name + ", Age: " + age + ", Size: " + size + ", Gender: " + gender;
+    return "Name: " + name + ", Age: " + age + ", Size: " + size + ", Gender: " + gender + ", Weigh: " + lb;
     }
 }
