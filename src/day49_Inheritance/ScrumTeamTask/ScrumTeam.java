@@ -24,6 +24,12 @@ public class ScrumTeam {
 
        public ArrayList<Developer> developers = new ArrayList<>();
 
+       public ScrumTeam(Tester[] testers, Developer[] developers){
+           addTesters(testers);
+           addDevelopers(developers);
+
+       }
+
        public void addTester(Tester tester){
            testers.add(tester);
 
@@ -60,7 +66,7 @@ public class ScrumTeam {
                     "\nTesters #"+testers.size()+
                     "\nCapacity: "+((developers.size()+testers.size())*8)+ " point (Dev.Team * 8 Days)"+
                     "\nVelocity: "+((developers.size()+testers.size())*8)+ " point for current Sprint (No days Off)"+
-                    "================================";
+                    "\n================================";
         }
 }
 
