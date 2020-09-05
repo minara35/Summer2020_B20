@@ -4,12 +4,19 @@ package day51_Exceptions;
 
 
     class A{
-        public void method(){
+        protected void method(){
 
         }
     }
 public class methodOverriding extends A{
-        @Override
+  /*      @Override
+    public  int method(){
+            return 10;
+
+    }
+
+   */
+  @Override
     public void method(){
 
     }
