@@ -4,13 +4,17 @@ public class ShapeObjects {
     public static void main(String[] args) {
         //  Shape shape1 = new Shape();
 
+
         Circle circle1 = new Circle(2.5);
 
         System.out.println(circle1);
-        System.out.println("Circle Has Volume: "+ Circle.hasVolume);
+        System.out.println("Circle Has Volume: "+ circle1.hasVolume);
 
         Circle circle2 = new Circle(5.5);
         System.out.println(circle2);
+
+        System.out.println(circle1.hasVolume);
+        System.out.println(circle2.hasVolume);
 
         System.out.println("=======================================");
 
@@ -23,6 +27,20 @@ public class ShapeObjects {
 
         Cylinder cylinder1 = new Cylinder(5, 10);
         System.out.println(cylinder1);
+
+        System.out.println(circle1.hasVolume);
+
+        System.out.println("========================================");
+
+        // Circle circle3 = new Circle(-10);
+        //   System.out.println(circle3);
+
+        //   Rectangle rectangle2 = new Rectangle(-2, 0);
+
+        Cylinder cylinder2 = new Cylinder(0,0);
+
+
+
 
     }
 }
