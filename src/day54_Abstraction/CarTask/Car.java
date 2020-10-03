@@ -1,4 +1,4 @@
-package day54_Abstarction.CarTask;
+package day54_Abstraction.CarTask;
 
 /*
 Ex2:
