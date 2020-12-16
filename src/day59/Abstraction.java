@@ -4,6 +4,8 @@ interface X{
     public abstract void method1();
     void method2();
 
+
+
     int a = 10; // public static final
     int b = 20;
 
@@ -14,6 +16,10 @@ interface X{
 }
 
 abstract  class Y{
+
+    public void Y(){
+
+    }
     int a;
     static int b;
 
@@ -37,5 +43,8 @@ public class Abstraction {
         //  X obj2 = new X();
 
     }
+
+
+
 
 }

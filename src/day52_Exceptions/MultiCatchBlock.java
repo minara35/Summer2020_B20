@@ -21,8 +21,6 @@ public class MultiCatchBlock {
             System.out.println("No Such Element Exception");
 
 
-        }catch (RuntimeException e) {
-            System.out.println("Run time Exception");
 
         }
 
